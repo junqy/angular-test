@@ -43,6 +43,7 @@ export class UsersMainComponent implements OnInit {
 
   deleteUser(row: any){
     this.api.deleteUser(row.id).subscribe(res =>{
+      console.log(res)
       this.getUsers();
     })
   }

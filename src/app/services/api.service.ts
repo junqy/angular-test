@@ -21,7 +21,7 @@ export class ApiService {
   }
 
   deleteUser(id: number){
-    return this.http.delete<any>("http://localhost:3000/posts" + id).pipe(map((res:any)=>{
+    return this.http.delete<any>("http://localhost:3000/posts/" + id).pipe(map((res:any)=>{
       return res;
     }))
   }
