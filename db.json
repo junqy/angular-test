@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "surname": "",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "name": "gfdfg",
+      "surname": "dfhdfgh",
+      "email": "dfdfgdf"
+    },
+    {
+      "id": 4,
+      "name": "sad",
+      "surname": "asd",
+      "email": "asd"
+    },
+    {
+      "id": 5,
+      "name": "asd",
+      "surname": "dgh",
+      "email": "asd"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
